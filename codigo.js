@@ -121,6 +121,7 @@ function Desencriptar() {
 }
 
 /*************************COPIAR**************** */
+//https://www.w3schools.com/howto/howto_js_copy_clipboard.asp
 function CopiarTexto2() {
     txtDescifrar.select();
     txtDescifrar.setSelectionRange(0, 9999);
